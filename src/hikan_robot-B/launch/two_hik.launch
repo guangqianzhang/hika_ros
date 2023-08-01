@@ -1,8 +1,8 @@
 <launch>
     <group ns="hik1">
-        <arg name="ip_addr" default="192.168.5.100"/>
+        <arg name="ip_addr" default="192.168.1.64"/>
         <arg name="user_name" default="admin"/>
-        <arg name="password" default="ht123456"/>
+        <arg name="password" default="a1234567"/>
         <arg name="port" default="8000"/>
         <arg name="channel" default="1"/>
         <!--link_mode: 0-tcp, 1-udp, 2-multicast, 3-rtp, 4-rtp/rtsp, 5-rstp/http-->
@@ -38,9 +38,9 @@
     </group>
 
     <group ns="hik2">
-        <arg name="ip_addr" default="192.168.5.100"/>
+        <arg name="ip_addr" default="192.168.1.65"/>
         <arg name="user_name" default="admin"/>
-        <arg name="password" default="ht123456"/>
+        <arg name="password" default="a1234567"/>
         <arg name="port" default="8000"/>
         <arg name="channel" default="1"/>
         <!--link_mode: 0-tcp, 1-udp, 2-multicast, 3-rtp, 4-rtp/rtsp, 5-rstp/http-->
